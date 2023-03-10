@@ -1,0 +1,64 @@
+{
+	"compiler": {
+		"version": "0.8.19+commit.7dd6d404"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "deployer",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"homework4.sol": "HW4"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"homework4.sol": {
+			"keccak256": "0x17632a4402f40cf3faeb522c3a95bbb708acb2cc210fa3870c6cda86bdc04e30",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://ca103bd38595743987eb03362e63c44c900a6acc535c001362ad1f3ff159eea1",
+				"dweb:/ipfs/QmZqLLyN1BMiF8D36XEzJHsidWKPz6KejuPCmdDDSLfsTE"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,103 @@
+{
+	"compiler": {
+		"version": "0.8.19+commit.7dd6d404"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "scoreUpdated",
+				"type": "event"
+			},
+			{
+				"inputs": [],
+				"name": "getScore",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_newScore",
+						"type": "uint256"
+					}
+				],
+				"name": "setScore",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Score.sol": "Score"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Score.sol": {
+			"keccak256": "0x65bd5e07b4f85504b541798f4d87d5f2bd7a797c50bbd27997d6b5d4e8650ad5",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://6db15b2b14db453ff790b71112102c510fe9f216d3bfe5082f5345978e774154",
+				"dweb:/ipfs/QmcRiwqJQNucJJx3r76iiGpXK3UhG8pjbeJ24WvDTxA2cK"
+			]
+		}
+	},
+	"version": 1
+}
