@@ -22,7 +22,7 @@ contract DogCoing {
     }
 
     modifier onlyOwner(){
-                require(msg.sender==owner, "not allowed");
+        require(msg.sender==owner, "not allowed");
         _;
     }
 

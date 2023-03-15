@@ -342,7 +342,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/JLBTCoin.sol": "DogCoing"
+			"contracts/JLBTCoin.sol": "JLBT"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -389,11 +389,11 @@
 			]
 		},
 		"contracts/JLBTCoin.sol": {
-			"keccak256": "0xc8183354d29637259ba8d4ffc35770063117fa30b737bf70d445fcf7ecad9084",
+			"keccak256": "0x7cd9b43658a0234016339c7566a0e92b23fd76575b53562ff76e5f637ee9ee05",
 			"license": "UNLICENSED .",
 			"urls": [
-				"bzz-raw://5223ab11c4964253330343a3f41f00067fbb6875a7e04c7e0285c53fe70901a0",
-				"dweb:/ipfs/Qma3LaBfR1jPszRt2jDzd65XPve86g89GCurWMpMk2kWZQ"
+				"bzz-raw://4f0d680d5fc889df8373ef37fb978b15445bedb481c3257b724d9a747bd26116",
+				"dweb:/ipfs/QmYoaZ7tbawQs6h3Ry1K1VSRdUmsJz5CbuAJ5PeQUxbs9N"
 			]
 		}
 	},
