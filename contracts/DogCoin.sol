@@ -37,6 +37,12 @@ contract DogCoing {
         emit totalSupplyChanged(totalSupply);
     }
 
+    function _mint() internal onlyOwner {
+        totalSupply += 1000;
+        usersBalance[owner] += 1000;
+        emit totalSupplyChanged(totalSupply);
+    }
+
     function getUsersBalance(address user) internal view returns(uint256){
         return usersBalance[user];
     }

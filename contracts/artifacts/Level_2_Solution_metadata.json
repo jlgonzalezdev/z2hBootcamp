@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256[10]",
+						"name": "unsortedArray",
+						"type": "uint256[10]"
+					}
+				],
+				"name": "solution",
+				"outputs": [
+					{
+						"internalType": "uint256[10]",
+						"name": "sortedArray",
+						"type": "uint256[10]"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Level2Solution.sol": "Level_2_Solution"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 1
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Level2Solution.sol": {
+			"keccak256": "0x4c5c4db89bc4fa34710a5343e64aa7a4cacf946da751bbe6e051b7de3c190bd5",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://dffa50f7b3e1563e2baff8cc7dafb71be99c002c6d06659b6bd277372af55da2",
+				"dweb:/ipfs/QmZgBfKLijtyCKxGTD69J5vNsX52Q7U8U6qsGLBz6zmcHG"
+			]
+		}
+	},
+	"version": 1
+}

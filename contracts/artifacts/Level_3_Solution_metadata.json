@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "addr",
+						"type": "address"
+					}
+				],
+				"name": "solution",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "codeSize",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Level3Solution.sol": "Level_3_Solution"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 1
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Level3Solution.sol": {
+			"keccak256": "0x582268bc5ed00234fdc98aa303b9e682f57eed83d14131a0be4e865a295518a1",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://2350e8dcb98e98ff29bba92272fe1be02174ea05f3437146a8c3ff9d13090adb",
+				"dweb:/ipfs/QmPMzyM8jMuZvFhzbvdoH68gxtw3buJoz9w3e7U8P7cNWF"
+			]
+		}
+	},
+	"version": 1
+}
